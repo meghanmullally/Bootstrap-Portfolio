@@ -16,6 +16,13 @@ h3 {
   margin: 20px;
 }
 
+h4 {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
 /* #logo-name {
   position: absolute;
   top: -1px;
@@ -30,14 +37,16 @@ h3 {
   color: #ffffff;
 }
 
+*/
 
 #about-me,
 #contact,
 #portfolio {
   font-family: 'Georgia', Times, 'Times New Roman', serif;
-  text-align: center;
-  float: left;
-} */
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+} 
 
 /*Main content*/
 
@@ -71,7 +80,9 @@ i.fas,
   i.fab {
     font-size: 2em;
     align-content: center;
-  }
+   }
+
+
 
 /*Contact form*/
 
@@ -119,59 +130,22 @@ textarea {
 
 /*Portfolio content*/
 
-.row {
-  margin: 8px;
-}
-
-
-/* Create four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-}
-
-/* Clear floats after rows */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* Content */
-.content {
-  background-color: #ffffff;
-  padding: 10px;
-}
+/* .content {
+    padding: 5px;
+} */
 
 .imgTitle {
   position: relative;
   font-family: 'Georgia', Times, 'Times New Roman', serif;
   background-color: #4aaaa5;
-  padding: 20px;
-  bottom: 90px;
+  padding: 10px;
+  bottom: 60px;
+  left: -20px;
   width: 200px;
   text-align: center;
   color: #ffffff;
-}
-
-#imgTitle-1 {
-  position: relative;
-}
-
-#imgTitle-2 {
-  position: relative;
-}
-
-#imgTitle-3 {
-  position: relative;
-}
-
-#imgTitle-4 {
-  position: relative;
-}
-
-#imgTitle-5 {
-  position: relative;
 }
 
 

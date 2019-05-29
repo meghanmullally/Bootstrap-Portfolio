@@ -1,67 +1,83 @@
-<!DOCTYPE html>
-<html lang="zxx">
+<!doctype html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About Me</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
   <!---CSS and Image Links-->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
- <!---BootStrap Link--->
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-
-
-  <title>Contact</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-  <!--Main Header / Nav Bar-->
-  <header>
-    <h1 id="logo-name">Meghan Mullally</h1>
-    <nav>
-      <a href="index.html">About |</a>
-      <a href="portfolio.html">Portfolio |</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
 
+  <!--NavBar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Meghan Mullally</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html">About Me</a>
+        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-item nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
 
-  <!---Main Content-->
-  <div id="main-container">
-    <!-- <div id="wrapper"> -->
-    <section>
-      <h1 id="contact">Contact</h1>
+      </div>
+    </div>
+  </nav>
+
+  <!--End NavBar-->
+
+  <!--Contact Content-->
+  <div class="container">
+  <h1 id="contact">Contact</h1>
       <hr>
       <form>
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          </div>
+          <div class="form-group col-md-9">
+            <label id="message">Message</label>
+            <textarea></textarea>
+          </div>
+          
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+  
+    </div>
+  <!--End Contact Content-->
 
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-        <label id="message">Message</label>
-        <textarea></textarea>
-        <br>
-        <br>
-        <br>
-        <input type="submit" value="Submit">
 
-      </form>
-
-    </section>
-    <!-- </div> -->
-
-  </div>
-  <!---Footer_-->
+  <!--Sticky Footer-->
   <footer>
-    <p id="copyright">Copyright &copy; 2019 Meghan Mullally</p>
+
+    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+      <p id="copyright">Copyright &copy; 2019 Meghan Mullally</p>
+    </nav>
+
   </footer>
 
-
-
+  <!--End Footer-->
 
 </body>
 
